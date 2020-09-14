@@ -1,0 +1,215 @@
+/*HTML estilo*/
+/*etiquetas*/
+header{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Catamaran';
+    text-transform: uppercase;
+
+}
+footer
+{
+    width: 100%;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    background-color: #000;
+
+}
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/*clases*/
+/*barra superior*/
+.top-bar{
+    width: 100%;
+    margin: 0;
+    padding: .5em 2em 1em 0;
+    background-color: #000;
+    
+}
+.mob-menu{
+    display: block;
+    color: #fff;
+    font-size: 1.8em;
+    padding: .2em;
+    position: absolute;
+    top: .6em;
+    left: .3em;
+}
+.mob-close{
+    display: block;
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    right: 5em;
+    top: 1em;
+    z-index: 2;
+}
+.top-nav{
+    position: fixed;
+    top: 0;
+    left: -33em;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 4em;
+    background-color: rgb(39, 39, 39);
+    z-index: 2;
+    color: #fff;
+}
+/*------------------------------*/
+.top-bar-content{
+    text-decoration: none;
+    display: inline;
+}
+.logo{
+    float: left;
+    margin: 0 .5em 1em 2.5em;
+    padding: 0;
+    
+}
+.top-text{
+    color: #fff;
+    font-weight: 900;
+    font-size: 14px;
+    margin: .5em;
+    padding: .5em0;
+}
+/*Cuerpo*/
+/*Seccion inicial*/
+.intro-section{
+    width: 100%;
+    background: url(./images/07.jpg);
+    color: #fff;
+    padding: 5em 1em;
+}
+.intro-section-title{
+    
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    margin: 0;
+    padding: 1em;
+}
+.intro-section-btn{
+    
+    text-align: center;
+    display: block;
+    margin: 4em;
+    padding: .5em;
+    background-color: #ff690f;
+    color: #fff;
+    border-radius: .2em;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+/*informacion*/
+.second-part{
+    text-align: center;
+    margin: 1em;
+    padding: .1em;
+}
+.second-part-title{
+    font-weight: 900;
+    font-size: 40px;
+}
+.second-part-txt{
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: initial;
+}
+/*Ofertas*/
+.class{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin: .2em;
+    padding: .2em;
+}
+.class-title{
+    font-weight: 900;
+    font-size: 30;
+}
+.class-btn{
+    display: block;
+    background-color: #ff690f;
+    border-radius: .2em;
+    margin: 0 5em ;
+    padding: .5em 0;
+    text-decoration: none;
+    color: #fff;
+}
+.estadistica{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.estadistica-title{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+.estadistica-text{
+    font-size: 12;
+    margin: 0 2em;
+}
+.estadistica-numeros
+{
+    font-size: 24px;
+    font-weight: 900;
+    color: #ff690f;
+    text-decoration: none;
+}
+/*Gran imagen*/
+.imagen{
+    width: 100%;
+    height: 35em;
+    margin: 2em 0;
+    background: url(./images/06.png);
+    background-size: cover;
+    float: left;
+}
+/*Testimonials*/
+.testimonials{
+    text-align: center;
+    font-weight: 400;
+    padding: 1em;
+}
+.testimonials-title{
+    font-weight: 900;
+    font-size: 30px;
+    margin: .2em;
+}
+.testimonials-text{
+    font-size: 15px;
+    text-transform: initial;
+    margin: .2em;
+}
+/*foooter*/
+.footer-title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+}
+.footer-nav-icon{
+    display: inline-block;
+    margin: .2em;
+}
+.footer-icon{
+    font-size: 1.5em;
+    color: #fff;
+}
+.footer-icon:hover{
+    color: rgb(253, 181, 133);
+}
