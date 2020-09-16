@@ -17,13 +17,13 @@
     <header class = "top-bar">
         <nav>
             <ul class="top-nav">
-                <span class="mob-close fas fa-window-close" onclick="closeMobileMenu"></span>
+                <span class="mob-close fas fa-window-close" onclick="closeMobileMenu()"></span>
                 <li>Home</li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
         </nav>
-        <span class="mob-menu fas fa-bars" onclick="openMobileMenu" ></span>
+        <span class="mob-menu fas fa-bars" onclick="openMobileMenu()" ></span>
     
         <a class="top-bar-content" href="#"><img class="logo" src="./images/08.png" alt="logo"><b class="top-text">the mountains Snowboarding School</b></a>
     
@@ -115,16 +115,18 @@
 
 <!-- <link rel="stylesheet" href="main.js"> -->
 <script>
-
-    function openMobileMenu()
+    
+function openMobileMenu()
 {
-    console.log("encendido");
+    var nav=document.body.getElementsByClassName("top-nav")[0];
+    nav.style.left="0";
+
 }//fin open menu
 
 function closeMobileMenu(){
-    console.log("encendido");
-}//fin close menu
+    var nav=document.body.getElementsByClassName("top-nav")[0];
+    nav.style.left="-35em";
 
-</script>
+}//fin close menu</script>
 
 </html>
